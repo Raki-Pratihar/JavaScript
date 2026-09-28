@@ -2,4 +2,13 @@
 /*
 1. Setting up the local environment for development.
 2. Create new folder.
+3. Create new .js file in VS Code.
+4.console.log("Hallo World").
+5. File Extention.
+6. Compiler & Interpreter
+7. JavaScript environment - node.js
+8. Install node.js
+9. Code editor
+10. Install VS Code
+11. Setup node.js in VS Code
 */
