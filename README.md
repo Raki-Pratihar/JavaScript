@@ -22,3 +22,14 @@
 4. Set up node.js in github code space vs code.
 5. Commit changes.
 6. Deactive your code space.
+
+## 4. let, var & const
+1. Goal of learning javaScript.
+2. Variable and constant.
+3. Reserved keyword in javascript.
+4. Run file in terminal.
+5. Comment in JavaScript.
+6. console.table.[]
+7. Let and var.
+8. Scope.
+9. You can declear a variable without value and assign value later 
