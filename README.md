@@ -68,3 +68,25 @@
 13. Convert string into boolean.
 14. Notes. 
 15. Convert number into string.
+
+## 7. Operation In JavaScript
+1. Operations.
+2. Negetive value of numder.
+3. Other operations.
+4. Addition of string.
+5. Addition of string and number.
+6. To primitive.
+7. Use multipal operation at a time.
+8. console.log(+true)
+9. console.log(true+)
+10. console.log(+"")
+11. pre incriment and post incriment.
+
+## 8. Coparision Of Datatype
+1. ( > , < , >= , <= )
+2. == , !=
+3. "2">1 & "02">1
+4. (null > 0) , (null == 0) , (null < 0)
+5. (==) & (> , < , >= , <=) works differently.
+6. Undefined case.
+7. strict check (===)
