@@ -51,3 +51,20 @@
 7. Object.
 8. tyoeof.
 9. typeof null-->object
+
+## 6. Conversion in JavaScript
+1. Impotemce of Finding variable's data type.
+2. Find data type of value.
+3. Numder can be inside string.
+4. Convert string into numder.
+5. Conversion problem of numder in JS.
+6. NaN
+7. Convert null into numder.
+8. Convert undeffined into number.
+9. Convert boolean into numder.
+10. Convert string into number.
+11. Convert 1 into boolean. 
+12. Convert vacent string into boolean.
+13. Convert string into boolean.
+14. Notes. 
+15. Convert number into string.
