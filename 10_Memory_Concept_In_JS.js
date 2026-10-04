@@ -1,0 +1,1 @@
+// 1️⃣0️⃣ Memory Concept in JavaScript.
