@@ -2,8 +2,19 @@
 
 
 // 1. Operations.
+/*
+* Arithmetic: `+`, `-`, `*`, `/`, `%`, `**`
+* Assignment: `=`, `+=`, `-=`, `*=`, `/=`
+* Comparison: `==`, `===`, `!=`, `!==`, `>`, `<`, `>=`, `<=`
+* Logical: `&&`, `||`, `!`
+* Increment/Decrement: `++`, `--`
+* Bitwise: `&`, `|`, `^`, `~`, `<<`, `>>`
+* Ternary: `condition ? true : false`
+* Nullish Coalescing: `??`
+* Optional Chaining: `?.`
+ */
 
-// 2. Negetive value of numder.
+// 2. Negative value of number.
 let value1 = 5;
 let neg_value1 = -value1;
 console.log(neg_value1);
@@ -31,7 +42,28 @@ console.log(1+"2");
 console.log("1"+2+2);
 console.log(1+2+"2");
 
-// 6. To primitive.
+// 6. To primitive
+/*
+
+**ToPrimitive** is the internal JavaScript operation that **converts an object into a primitive value**.
+
+* Uses `valueOf()`
+* Then `toString()` (depending on the conversion hint)
+* Hints: **`"number"`**, **`"string"`**, **`"default"`**
+
+Example:
+
+```js
+const obj = {
+  valueOf() { return 10; }
+};
+
+console.log(obj + 5); // 15
+```
+
+**In short:** `Object → Primitive value`
+
+*/
 
 // 7. Use multipal operation at a time.
 console.log(2+18/5-4); // Bade way write code.
