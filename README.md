@@ -90,3 +90,32 @@
 5. (==) & (> , < , >= , <=) works differently.
 6. Undefined case.
 7. strict check (===)
+
+## 9. Detailed Classification of Datatype
+1. Primitive and non-primitive/reference data type.
+2. Primitive --> call by value
+i. String 
+ii. Number
+iii. Boolean
+iv. Null
+v. Undefined
+vi. BigInt
+3. Reference [ non-primitive ]
+i. Array
+ii. Object
+iii. Function
+4. Static vs Dynamically typed.
+5. JS is dynamically typed.
+6. Symbol.
+7. BigInt.
+8. Array.
+9. Function.
+10. typeof
+
+## Memory Concept in JavaScruit
+1. Memory and thread concept in JS.
+2. Memory in JS.
+3. Stack Memory [ Premitive ]
+   Heap Memory [ non-premitive ]
+4. Concept of stack memory.
+5. Concept of heap memory.
