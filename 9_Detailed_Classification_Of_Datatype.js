@@ -33,13 +33,20 @@ console.log(bigNumber);
 
 // 3. Reference [non-primitive]
 // i. Array
+  const heroes=["spiderman","saktiman","ironman"];
+  console.log(heroes);
   
 // ii. Object
+let myObject={
+    name:"rocky",
+    age:19
+}
+console.log(myObject);
+
 // iii. Function
+const myFunction=function(){
+    console.log("Hallow world");
+}
+myFunction();
 // 4. Static vs Dynamically typed.
 // 5. JS is dynamically typed.
-// 6. Symbol.
-// 7. BigInt.
-// 8. Array.
-// 9. Function.
-// 10. typeof
