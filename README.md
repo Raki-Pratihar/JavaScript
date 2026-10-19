@@ -112,7 +112,7 @@ iii. Function
 9. Function.
 10. typeof
 
-## Memory Concept in JavaScruit
+## 10. Memory Concept in JavaScruit
 1. Memory and thread concept in JS.
 2. Memory in JS.
 3. Stack Memory [ Premitive ]
