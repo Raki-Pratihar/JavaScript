@@ -1,10 +1,10 @@
 // 2️⃣5️⃣ Control Flow In JavaScript
- 
+
 // 1. if statement
-if(true){
+if (true) {
     console.log(`code will cxecute`);
 }
-if(false){
+if (false) {
     // code will not execute
 }
 
@@ -12,42 +12,42 @@ if(false){
 // < , > , <= , >= , == , != , === , !== 
 
 // 3. Check Conditions with if statement
-const isUserLoggedIn=true;
-if(isUserLoggedIn){
+const isUserLoggedIn = true;
+if (isUserLoggedIn) {
     console.log(`user is logged in `);
 }
 
 // 4. if-else statement
-const temperature=42;
-if(temperature<50){
+const temperature = 42;
+if (temperature < 50) {
     console.log(`temperature is less than 50`);
-}else{
+} else {
     console.log(`temperatyre is grater than 50`);
 }
 
 console.log(`temperature is declared`); // it will always exicute
 
 // 5. Scope of conditional if statement 
-const score=200;
-if(score>100){
-    const power="fly"
+const score = 200;
+if (score > 100) {
+    const power = "fly"
     console.log(`user power: ${power}`);
 }
 //console.log(`user power: ${power}`); --> error(block scope)
 
 // 6. Implicit Scope 
-const balance=1000
-if(balance>0) console.log(`Your balance is ${balance}`);
+const balance = 1000
+if (balance > 0) console.log(`Your balance is ${balance}`);
 
 // else-if (for multipal conditions )
-let plan=1000
-if(plan<=500){
+let plan = 1000
+if (plan <= 500) {
     console.log(`you have basic plan worth ${plan}`)
-}else if(plan<=1000){
+} else if (plan <= 1000) {
     console.log(`you have pro plan worth ${plan}`);
-} else if(plan<=2000){
+} else if (plan <= 2000) {
     console.log(`you have elite plan worth ${plan}`);
-} else{
+} else {
     console.log(`you are not subscribed yet `);
 }
 
@@ -74,20 +74,32 @@ iv Nulish Coalescing (??)
 */
 
 // 8. Use logical operator in if statement 
-const haveId=true
-const haveDebitCard=true
-if(haveId&&haveDebitCard){
-    console.log("You can buy course");
+const haveId = true
+const haveDebitCard = true
+if (haveId && haveDebitCard) {
+    console.log("You can buy course");   // AND
 }
 
-const haveFacebookPage=false
-const haveInstagramPage=true
-const haveYoutubeChanel=true
-if(haveFacebookPage||haveInstagramPage||haveYoutubeChanel){
-    console.log("creater can participate");
+const haveFacebookPage = false
+const haveInstagramPage = true
+const haveYoutubeChanel = true
+if (haveFacebookPage || haveInstagramPage || haveYoutubeChanel) {
+    console.log("creater can participate");   //OR
 }
 
-// Switch statement
+let callVal1;
+callVal1 = 5 ?? 10
+console.log(callVal1);
+
+let callVal2;
+callVal2=null??10
+console.log(callVal2);
+
+let callVal3;
+callVal3=undefined??10
+console.log(callVal3);   //Nulish Coalescing
+
+// 9. Switch statement
 /*switch (key) {
     case value:
         
@@ -96,7 +108,7 @@ if(haveFacebookPage||haveInstagramPage||haveYoutubeChanel){
     default:
         break;
 }*/
-const month=2
+const month = 2
 switch (month) {
     case 0:
         console.log("month is january ");
@@ -110,7 +122,7 @@ switch (month) {
     case 3:
         console.log("month is apr ");
         break;
-    
+
     default:
         console.log("not a mounth");
         break;
@@ -118,4 +130,35 @@ switch (month) {
 /*⭐ i.break is used to stop execution
       ii. ue can also use string and other data types as case value. */
 
-      
+// 10. Truethy and falsy values 
+let userEmail = "rocky@google.com"
+
+if (userEmail) {
+    console.log("got user email");
+} else {
+    console.log("don't have user email");
+}
+/*
+♦️falsy values
+-->  false , 0 , -0 , BigInt 0n , null , undefined , NaN
+
+♦️Truethy valuse 
+    --> all except falsy values , "0" , "false" , " " , [] , {} , function(){}
+*/
+
+// 11. Identify empty array
+const emptyArray = []
+if (emptyArray.length === 0) {
+    console.log("array is empty");
+}
+
+// 12. Identify empty object
+const emptyObject = {}
+if (Object.keys(emptyObject).length === 0) {
+    console.log("object is empty");
+}
+
+// 13. Ternary operator
+        // condition ? true : false
+const ticitPrice= 50
+  ticitPrice<100 ? console.log("less than 100"):console.log("more than 100");
