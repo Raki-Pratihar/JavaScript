@@ -1,4 +1,4 @@
-// 4.let, var & const
+// 4️⃣ let, var & const
 
 //1. Goal of learning javaScript.
 
