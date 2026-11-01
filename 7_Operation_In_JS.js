@@ -9,7 +9,7 @@
 * Logical: `&&`, `||`, `!`
 * Increment/Decrement: `++`, `--`
 * Bitwise: `&`, `|`, `^`, `~`, `<<`, `>>`
-* Ternary: `condition ? true : false`
+* Ternary: `condition ? true : false
 * Nullish Coalescing: `??`
 * Optional Chaining: `?.`
  */
@@ -53,13 +53,12 @@ console.log(1+2+"2");
 
 Example:
 
-```js
+js
 const obj = {
   valueOf() { return 10; }
 };
 
 console.log(obj + 5); // 15
-```
 
 **In short:** `Object → Primitive value`
 
@@ -78,3 +77,22 @@ console.log(+true);
 // 10. console.log(+"")
 console.log(+"");
 // 11. pre incriment and post incriment.
+/* In JavaScript, Pre-increment (++a) and Post-increment (a++) are operators used to increase a variable's value by 1.*/
+
+/*1. Pre-increment (++a)
+First, increases the value by 1.
+Then, returns the updated value. */
+let a = 5;
+let b = ++a;
+
+console.log(a); // 6
+console.log(b); // 6
+
+/*2. Post-increment (a++)
+First, returns the current value.
+Then, increases the value by 1.*/
+let c = 5;
+let d = c++;
+
+console.log(c); // 6
+console.log(d); // 5
