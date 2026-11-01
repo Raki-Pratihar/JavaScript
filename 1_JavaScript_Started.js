@@ -1,4 +1,4 @@
-// JavaScript Started
+// 1️⃣ JavaScript Started
 /* ♦️ JavaScript – Introduction:
 JavaScript (JS) is a high-level, interpreted programming language primarily used to make websites interactive and dynamic.
 It is one of the three core technologies of web development:
