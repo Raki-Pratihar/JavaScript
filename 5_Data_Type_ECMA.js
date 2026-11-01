@@ -1,4 +1,4 @@
-// 5. Data Type & ECMA script
+// 5️⃣ Data Type & ECMA script
 
 // 1. Use strict.
 "use strict"; //treat all js code in newer verson.
