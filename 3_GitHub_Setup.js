@@ -1,4 +1,4 @@
-// 3. GitHub Setup
+// 3. 3️⃣ GitHub Setup
 /* 
 1. Create Account on GitHub.
 2. Create new repository.
