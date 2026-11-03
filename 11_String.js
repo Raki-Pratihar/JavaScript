@@ -16,8 +16,8 @@ console.log("Hallo my name is " + myName + " and my repo count is " + myRepoCoun
 // 4. String interpulation with ``
 console.log(`Hallo my name is ${myName} and my repo count is ${myRepoCount}`);
 
-// 5. Decleared string with string constructer.
-const gameName= new String('RDR2')
+// 5. Decleared string with string constructer. [object constructer]
+const gameName = new String('RDR2')
 console.log(gameName);
 
 // 6. Key value pair in string created by string constructor.
@@ -33,11 +33,11 @@ When we create a string using the String constructor, JavaScript creates a Strin
 ⭐ Note: Primitive strings also support indexing and .length because JavaScript automatically wraps them temporarily when accessing properties. we don't need new String() to use these features. */
 
 // 7. Method in of string.
-/*In JavaScript, String methods are built-in functions used to perform operations on strings, such as searching, modifying, extracting, and converting text.*/ 
+/*In JavaScript, String methods are built-in functions used to perform operations on strings, such as searching, modifying, extracting, and converting text.*/
 
 // 8. Print string key.
-const primitiveString="Hello"
-const nonprimitiveString= new String('World')
+const primitiveString = "Hello"
+const nonprimitiveString = new String('World')
 
 console.log(primitiveString[0]);
 console.log(nonprimitiveString[0]);
@@ -46,7 +46,7 @@ console.log(nonprimitiveString[0]);
 console.log(gameName.__proto__); // in browser
 
 // 10. String length.
-const fullName="rocky"
+const fullName = "rocky"
 console.log(fullName.length); //--> 5
 
 // 11. toUppercasse().
@@ -65,37 +65,37 @@ console.log(fullName.indexOf('k')); //--> 3
 console.log(gameName.indexOf('R')); //--> 0 not (0 and 2)
 
 // 15. str.substring(sftart,end) 
-const subName= fullName.substring(0,5)
+const subName = fullName.substring(0, 5)
 console.log(subName);
 
 // 16. str.slice(0/-5 , 5)
-const sliceName=fullName.slice(-5,5)
+const sliceName = fullName.slice(-5, 5)
 console.log(sliceName);
 
 // 17. str.substring vs str.slice
 /* Both methods extract parts of a string.Both exclude the ending index.
-slice() supports negative indexes.substring() does not support negative indexes. */                   
+slice() supports negative indexes.substring() does not support negative indexes. */
 
 // 18. str.trim()
-const spaceSrting="   rocky  "
-const trimString=spaceSrting.trim()
+const spaceSrting = "   rocky  "
+const trimString = spaceSrting.trim()
 
 console.log(spaceSrting);
 console.log(trimString);
 
 // 19. str.replace('before' , 'after')
-const url="https://rocky.com/good%20programer"
-console.log(url.replace('%20','-'));
+const url = "https://rocky.com/good%20programer"
+console.log(url.replace('%20', '-'));
 
 // 20. str.includes('search')
 console.log(url.includes('rocky'));
 console.log(url.includes('jit'));;
 
 // 21. str.split('separator')
-const dasString="ram_sam_rahit"
-const space_string="ram sam rahit"
-const hyphenStrinh="ram-sam-rahit"
-const aString="ramsamrahit"
+const dasString = "ram_sam_rahit"
+const space_string = "ram sam rahit"
+const hyphenStrinh = "ram-sam-rahit"
+const aString = "ramsamrahit"
 
 console.log(dasString.split('_'));
 console.log(space_string.split(' '));
