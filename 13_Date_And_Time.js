@@ -59,7 +59,7 @@ let myDateTime= new Date(2026,0,25,10,30,10)
                            Y  M  D  h  m  s  */  
 console.log(myDateTime.toLocaleString());
 
-// 13. Dates with other formates
+// 14. Dates with other formates
     // i. yy-mm-dd
     let otherDate1=new Date("2026-01-15")
     console.log(otherDate1.toDateString());
@@ -68,16 +68,16 @@ console.log(myDateTime.toLocaleString());
     let otherDate2=new Date("01-15-2026")
     console.log(otherDate2.toDateString);
 
-// 14. Time stamp
+// 15. Time stamp
 let myTimeStamp=Date.now() 
 
 console.log(myTimeStamp);
 console.log(myCreatedDate.getTime());
 
-// 15. Time stamp in seconds
+// 16. Time stamp in seconds
 console.log(Math.floor(Date.now()/1000));
 
-// 15. Some other methods of date
+// 17. Some other methods of date
 let newDate=new Date()
 
 console.log(newDate.getDate());
@@ -91,7 +91,7 @@ console.log(newDate.getSeconds());
 console.log(newDate.getTime());
 console.log(newDate.getTimezoneOffset());
 
-// 16. Customise toLocaleString
+// 18. Customise toLocaleString
 newDate.toLocaleString('default',{
     weekday:"long"  // Monday instead mon
 })
