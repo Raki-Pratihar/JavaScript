@@ -119,3 +119,91 @@ iii. Function
    Heap Memory [ non-premitive ]
 4. Concept of stack memory.
 5. Concept of heap memory.
+
+## 11. Strings In JavaScript
+1. Addition of string.
+2. String in variable.
+3. Concatinet with "+"
+4. String interpulation with ``
+5. Decleared string with object constructer.
+6. Key value pair in string .
+7. Method in of string.
+8. Print string key.
+9. Print string _ _ proto_ _
+10. String length.
+11. toUppercasse().
+12. Method don't change original string .
+13. charat(2)
+14. indexof('t')
+15. str.substring(0,4)
+16. str.slice(1/-8 , 4)
+17. str.substring vs str.slice
+18. str.trim()
+19. str.replace('before' , 'after')
+20. str.includes('search')
+21. str.split('_')
+
+## 12. Number and Math in JavaScript.
+1. Strict for number.
+2. Proparties of number.
+3. num.toString()
+4. num.toString().length
+5. num.toFixed(2)
+6. num.toPrecision(3)
+7. num.toLocalString()
+8. ('en_in')
+9. Maximum value of number in javascript.
+10. Minimum value of number in javascript.
+11. Max_safe_integer
+12. Math in javascript.
+13. Math.abs(-4)
+14. Math.round(4.6)
+15. Math.ceil(4.2)
+16. Math.floor(4.9)
+17. Math.min(4,3,6,8)
+18. Math.max(4,3,6,8)
+19. Math.random()   0<-->1
+20. (Math.random()*10)+1
+21. value between our min and max
+
+## 13. Date And Time In JavaScript
+1. Date object in javascript
+2. Create date
+3. Using toString()
+4. toDateString
+5. toISOString
+6. toJSPN
+7. toLocaleDateString
+8. toLocaleString
+9. toLocaleTimeString
+10. toTimeString
+11. typeof Date
+12. Declare a specific date
+13. Declare a specific date and time
+14. Dates with other formates
+15. Time stamp
+16. Time stamp in seconds
+17. Some other methods of date
+18. Customise toLocaleString
+
+## 14. Array Part 1
+1. Array
+2. Declare array in JS
+3. Index of array
+4. Access eliment of index inside an array
+5. sallow and deep copy
+6. Create array using array constructor
+7.  Array Methods
+8. arr.push()
+9. arr.pop()
+10. arr.unshift()
+11. arr.shift()
+12. arr.includes()
+13. arr.indexOf()
+14. arr.join()
+15. slice() and splice()
+
+
+
+
+
