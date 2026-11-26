@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit and Remove Element in DOM </title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="language">
+        <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+// 34. Edit And Remove Element in DOM 
+
+
+// 1️⃣ Add with function 
+    function addLanguage(langName){
+        const addli=document.createElement('li')
+        addli.innerHTML=`${langName}`
+        document.querySelector('.language').appendChild(addli)
+
+    }
+    addLanguage("python")
+    addLanguage("java")
+
+
+    function addOtherLanguage(langName){
+        const addli=document.createElement('li')
+        addli.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(addli)
+    }
+    addOtherLanguage("typescript")
+
+
+    // 2️⃣ Edit element in DOM
+    const secondLang=document.querySelector('li:nth-child(2)')
+    secondLang.innerHTML="C++"  // not optimized 
+
+
+    const lastLang=document.querySelector('li:nth-child(4)')
+    const newli=document.createElement('li')
+    newli.textContent='Rust'
+    lastLang.replaceWith(newli)  // Optimized
+
+
+    // 3️⃣ Remove element in DOM
+    const firstLang=document.querySelector('li:first-child')
+    firstLang.remove()
+</script>
+</html>
